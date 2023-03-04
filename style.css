@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab&display=swap');
+
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #f5f5f5;
+}
+
+.text-todo-heading {
+    font-size: 6.4rem;
+    color:#de9a9c;
+}
+
+#inputData {
+   display: inline-block;
+   width: 50vw;
+   font-size: 3.2rem;
+   outline: none;
+   opacity: .5;
+   font-style: italic;
+   border: none;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+#plusButton {
+    font-size: 3rem;
+    padding:  .3rem .6rem;
+    outline: none;
+    border: none;
+    background-color: #de9a9c;
+    color: #ffffff;
+}
+.newTodo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.newTodo-text{
+    display: flex;
+    width: 58vw;
+    overflow: hidden;
+    font-size: 2.6rem;
+    color: #2d2d2d;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    
+}
+
+.text-underline {
+text-decoration: line-through;
+
+}
+
+.notVisible {
+  display: none;
+}
+
+
+
+.footerButtons {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.newTodoIcons {
+   background-color:#de9a9c;
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 1.4rem 1.2rem;
+    border-radius: 2px;
+   
+}
+
+#checkIcon {
+    position: absolute;
+    left:70.2%;
+}
+
+#deleteIcon {
+    position: absolute;
+    left:75%;
+}
+
+.lowerButton {
+   
+    font-size: 2.4rem;
+    padding:  .3rem .8rem;
+    margin-left: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color:#de9a9c;
+    color: #ffffff;
+   
+}
+
+@media (min-width: 200px) {
+    html {
+      font-size: 4px;
+    }
+  }
+@media (min-width: 500px) {
+    html {
+      font-size: 6px;
+    }
+  }
+  @media (min-width: 650px) {
+    html {
+      font-size: 8px;
+    }
+  }
+
+  @media (min-width: 800px) {
+    html {
+      font-size: 10px;
+    }
+  }
+  @media (min-width: 1000px) {
+    html {
+      font-size: 12px;
+    }
+  }
