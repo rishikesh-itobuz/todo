@@ -45,6 +45,10 @@ addData.addEventListener('click', function () {
   }
 })
 
+
+
+
+
 //Active button script starts here
 
 var lowerButtonActive = document.getElementById('lowerButtonActive');
@@ -91,10 +95,9 @@ lowerButtonClear.addEventListener('click', function () {
   const newTodo = document.getElementsByClassName('newTodo');
   for (let i = 0; i < newTodo.length; i++) {
     if (newTodo[i].firstElementChild.classList.contains("textUnderline")) {
-      
-      newTodo[i].remove();
       dataLogList.splice(i, 1);
+      newTodo[i].remove();
+      i--;
     }
-   
   }
 })
